@@ -1,5 +1,5 @@
 let parties = [];
-const partyList = document.querySelector('#partyList')
+const partyList = document.querySelector('#partyList');
 
 async function getParties(){
     const response = await fetch('https://fsa-crud-2aa9294fe819.herokuapp.com/api/2307-ftb-et-web-ft/events');
